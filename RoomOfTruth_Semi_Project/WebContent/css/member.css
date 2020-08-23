@@ -1,0 +1,83 @@
+﻿@CHARSET "UTF-8";
+
+
+/********* 마이페이지 nav-bar **********/
+.mypage-nav-bar li{float:left;}
+.mypage-nav-bar ul>li{margin-right:100px; }
+.mypage-nav{ width:430px;  margin:0 auto; height: 70px; }
+.mypage-nav .profile-nav{margin-right: 150px;}
+.setting-sub{height:30px; border-bottom:1px solid rgb(235, 235, 235);border-top:1px solid rgb(235, 235, 235);}
+.mypage-nav li{cursor: pointer; margin-top:30px;}
+.profile-nav, .mypage-viewAll, .edit-profile{color:rgb(255, 138, 61);}
+.mypage-nav-bar>.mypage-nav{font-size:25px; font-weight: 800;}
+.mypage-nav-bar>.setting-sub{font-size:20px; font-weight: 600;}
+.sub1{width:600px;  margin:0 auto; height: 40px;}
+.sub1 li:hover, .sub2 li:hover{cursor: pointer; color:rgb(255, 138, 61);}
+.sub2{display:none; width:490px;  margin:0 auto; height: 40px;}
+
+
+/********* 회원정보 수정 페이지 **********/
+.edit-info1, .edit-info2{display:none; border-radius:15px; clear:both;padding:20px; margin:50px auto;box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);width: 800px;height: 500px;}
+.edit-info1 table input, .edit-info2 table input{width: 100%;padding: 10px 0;margin: 10px 20px;border: none;border-bottom: 1px solid #999;outline: none;}
+.editBtn input{color: white;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 30px;
+    background: rgb(255, 138, 61);
+    border-radius: 10px; cursor: pointer;
+}
+.editBtn{
+	margin-top:120px;
+}
+#memberId_{border:none;}
+.edit-infoPage, .edit-passwordPage{padding:30px 250px;}
+.edit-infoPage p, .edit-passwordPage p{text-align: center;font-size: 25px; font-weight: 800;margin-bottom: 40px;}
+#deleteMem{position: absolute;
+    left: 930px;
+    font-size: 12px;
+    text-decoration: underline;cursor: pointer;outline:0;border:0;background-color: white;}
+
+
+
+/********* 프로필 페이지 **********/
+.mypage-profile1, .mypage-profile2, .mypage-profile3{border-radius:15px; clear:both;padding:20px; margin:50px 100px;box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);width: 250px;height: 400px;}
+.mypage-profile2, .mypage-profile3{display: none;}
+.mypage-allView input{   text-align: center;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;}
+.mypage-allView  .mypage-id{font-size: 25px; font-weight: 800;height: 40px;}
+.mypage-allView table{width: 80%;height:300px; margin:20px auto;text-align: center;}
+.mypage-allView table td{margin-bottom: 15px;}
+.filebox input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+.filebox label {
+    display: inline-block;
+    padding: 5px 20px;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    top: 0;
+    left: 0;
+    background: rgb(255, 138, 61);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#profileImg{width: 100px;height: 100px;border-radius: 50%;}
+
+/********* 회원정보 수정 페이지 **********/
+/********* 회원정보 수정 페이지 **********/
+
+
